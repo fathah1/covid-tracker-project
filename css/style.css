@@ -1,0 +1,157 @@
+@import url("normalise.css");
+
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgb(117, 74, 235);
+    color:white;
+}
+
+header{
+    background: -webkit-linear-gradient(45deg, hsla(294, 56%, 54%, 1) 0%, hsla(257, 57%, 39%, 1) 100%);
+    color:white;
+    font-family:'Montserrat Alternates',sans-serif; 
+    height:65vh;
+   
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around ;
+    padding:5%;
+    background-color:rgba(0, 0, 0, 0.068);
+    
+}
+
+.linkList{
+    list-style:none;
+    padding: 0.5em;;
+    background-color:rgba(247, 0, 255, 0.561);
+   
+     border-radius:  15px;
+
+}
+
+.nav_links{
+    text-decoration: none!important;
+    
+    color:white;
+    
+}
+
+.logo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:1rem;
+    margin:auto;
+}
+
+
+.landing{
+    margin:auto;
+    margin-bottom:-1px;
+    padding:3em 2em;
+    padding-bottom:2em; 
+    text-align:center;
+}
+
+.landing h2{
+    margin-top: 2em;
+}
+
+
+
+@keyframes wiggle {
+
+    start {
+      transform: translateY(-2em);
+    }
+  
+    end {
+      transform: translateY(+2em);
+    }
+}
+
+.fas{
+    font-size: 2rem;
+    padding-top:2rem;
+    margin-bottom:-5em;
+    animation: wiggle 10s linear infinite;
+}
+
+
+h1{
+    padding:auto;
+  
+    margin:1em;
+}
+
+
+.information{
+    text-align:center;
+}
+
+.newGlobalStats{
+    background-color: rgb(68, 62, 158);
+    color:white;
+    margin:1em;
+    padding:0.3em;
+    border-radius: 14px;
+}
+
+.allTimeGlobalStats{
+    background-color: rgb(88, 57, 172);
+    color:white;
+    margin:1em;
+    padding:0.3em;
+    border-radius: 14px;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.157);
+    margin:1.5em;
+    border-radius:10px;
+    padding: 0.2em;
+}
+
+.heading{
+    font-weight:bold;
+    font-size:1.5em;
+    
+}
+
+.mainHeading{
+    font-family: 'Arimo', sans-serif;
+}
+
+@media (min-width:700px) {
+    
+
+
+}
+
+footer{
+    font-size: 0.6em;
+    background-color:rgba(0, 0, 0, 0.315);
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.links{
+    border-radius:10px;
+   background-color: white;
+   width:30%;
+   padding:0.5em;
+   font-size: 2.5em;
+   text-align:center;
+}
+
+.deaths{
+    color:rgba(251, 25, 25, 0.856);
+}
+
+.recover{
+    color:greenyellow;
+}
