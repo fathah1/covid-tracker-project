@@ -1,0 +1,55 @@
+@import url("normalise.css");
+@import url("dropDown.css");
+
+html {
+    height: 100%;
+}
+
+body{
+    background: -webkit-linear-gradient(45deg, hsla(294, 56%, 54%, 1) 0%, hsla(257, 57%, 39%, 1) 100%);
+}
+
+header{
+    
+    color:white;
+    font-family:'Montserrat Alternates',sans-serif; 
+    
+   
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around ;
+    padding:5%;
+    background-color:rgba(0, 0, 0, 0.068);
+    
+}
+
+.linkList{
+    list-style:none;
+    padding: 0.5em;;
+    background-color:rgba(247, 0, 255, 0.561);
+   
+     border-radius:  15px;
+
+}
+
+.nav_links{
+    text-decoration: none!important;
+    
+    color:white;
+    
+}
+
+.logo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:1rem;
+    margin:auto;
+}
+
+.heading{
+    color:white;
+    text-align:center;
+    font-family:'Montserrat Alternates', sans-serif;;
+}
