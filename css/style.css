@@ -61,16 +61,7 @@ nav{
 
 
 
-@keyframes wiggle {
 
-    start {
-      transform: translateY(-2em);
-    }
-  
-    end {
-      transform: translateY(+2em);
-    }
-}
 
 .fas{
     font-size: 2rem;
@@ -94,7 +85,7 @@ h1{
 .newGlobalStats{
     background-color: rgb(68, 62, 158);
     color:white;
-    margin:1em;
+    margin:2.5em;
     padding:0.3em;
     border-radius: 14px;
 }
@@ -102,7 +93,7 @@ h1{
 .allTimeGlobalStats{
     background-color: rgb(88, 57, 172);
     color:white;
-    margin:1em;
+    margin:2.5em;
     padding:0.3em;
     border-radius: 14px;
 }
@@ -152,12 +143,14 @@ footer{
     color:greenyellow;
 }
 
-@media (min-width:700px) {
 
+@media (min-width:700px){
     nav{
         padding:10px;
         background-color:rgba(0, 0, 0, 0.198);
     }
+
+
 
     header{
         height:100vh;
@@ -166,7 +159,164 @@ footer{
         display:flex;
         justify-content:space-around;
         margin:3em;
+         height:85vh;
+     
+    }
+
+    .links{
+        border-radius:10px;
+       background-color: white;
+       width:10%;
+       padding:0.5em;
+       font-size: 2.5em;
+       text-align:center;
     }
 
 
+    .newGlobalStats{
+        width:40rem;
+    }
+
+    .allTimeGlobalStats{
+        width:40rem;
+       
+    }
+
+    h3{
+        margin-left:2rem;
+        margin-top:auto;
+        margin-right:60%;
+    }
+
+
+
+    nav{
+        display:flex;
+        justify-items: auto;
+        justify-self: auto;
+        
+    }
+
+    .logo{
+       margin-left:2rem;
+        margin-top:auto;
+        margin-right:70%;
+        
+        
+    }
+
+    .box{
+        margin-top:3em;
+    }
+
+     .landingH1{
+          font-size:50px;
+          
+     }
+     
+     .landingH2{
+        margin-top:300px;
+         font-size:30px;
+     }
+
+     .fas{
+         font-size:2rem;
+        
+         
+     }
+
+   
+
 }
+
+
+
+
+@media (min-width:1300px) {
+
+    nav{
+        padding:10px;
+        background-color:rgba(0, 0, 0, 0.198);
+    }
+
+
+
+    header{
+        height:100vh;
+    }
+    .information{
+        display:flex;
+        justify-content:space-around;
+        margin:3em;
+         height:85vh;
+     
+    }
+
+    .links{
+        border-radius:10px;
+       background-color: white;
+       width:10%;
+       padding:0.5em;
+       font-size: 2.5em;
+       text-align:center;
+    }
+
+
+    .newGlobalStats{
+        width:40rem;
+    }
+
+    .allTimeGlobalStats{
+        width:40rem;
+       
+    }
+
+    h3{
+        margin-left:2rem;
+        margin-top:auto;
+        margin-right:60%;
+    }
+
+
+
+    nav{
+        display:flex;
+        justify-items: auto;
+        justify-self: auto;
+        
+    }
+
+    .logo{
+       margin-left:2rem;
+        margin-top:auto;
+        margin-right:70%;
+        
+        
+    }
+
+    .box{
+        margin-top:3em;
+    }
+
+     .landingH1{
+          font-size:100px;
+          margin-top:5%;
+          margin-bottom:0.5rem;
+     }
+     
+     .landingH2{
+         
+        font-size:50px;
+     }
+
+     .fas{
+         font-size:3rem;
+         margin-bottom:5rem;
+     }
+
+   
+
+ 
+}
+
+
