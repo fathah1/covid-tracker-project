@@ -314,6 +314,9 @@ footer{
          margin-bottom:5rem;
      }
 
+    footer{
+        justify-content:space-between;
+    }
    
 
  

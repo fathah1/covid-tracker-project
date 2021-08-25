@@ -142,3 +142,79 @@ footer{
 h2{
     margin:2rem;
 }
+
+@media(min-width:500px){
+
+   
+    
+    .logo{
+        margin-right:70%;
+    }
+
+    nav{
+        padding:20px;
+        margin-bottom:3rem;
+    }
+
+}
+
+@media(min-width:1000px){
+
+    .heading{
+        margin-left: 9%;
+    }
+
+    select{
+        width:80%;
+        margin-right:15%;
+
+    }
+
+    select{
+        width:90%;
+    }
+
+    .mainSection{
+        display:flex;
+    }
+
+    .logo{
+        margin-right:80%;
+    }
+
+    .information{
+        display:flex;
+        justify-content:space-around;
+        margin:3em;
+         height:85vh;
+     
+    }
+    
+    .links{
+        border-radius:10px;
+       background-color: white;
+       width:10%;
+       padding:0.5em;
+       font-size: 2.5em;
+       text-align:center;
+    }
+    .newGlobalStats{
+        width:40rem;
+        text-align:center;
+    }
+
+    .allTimeGlobalStats{
+        width:40rem;
+       
+    }
+
+    footer{
+        justify-content:space-between;
+       
+    }
+
+    
+
+
+
+}
